@@ -34,7 +34,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
 
-    padding: 3rem;
+    padding: 3rem 3rem 10rem 3rem;
 
     &__content {
         width: 100%;
@@ -92,11 +92,11 @@ body {
     }
 
     33% {
-        transform: translateY(-100%);
+        transform: translateY(-140%);
     }
 
     66% {
-        transform: translateY(30%);
+        transform: translateY(40%);
     }
 
     100% {
