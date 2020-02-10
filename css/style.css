@@ -64,16 +64,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../img/hero1.jpg);
-  background-image: url(../img/hero2.jpg);
-  background-image: url(../img/hero3.jpg);
-  background-image: url(../img/hero4.jpg);
-  background-image: url(../img/hero5.jpg);
-  background-image: url(../img/hero6.jpg);
-  background-image: url(../img/hero7.jpg);
-  background-image: url(../img/hero8.jpg);
-  background-image: url(../img/hero9.jpg);
-  background-image: url(../img/hero10.jpg);
+  background-image: url(../img/hero1new.jpg);
+  background-image: url(../img/hero2new.jpg);
+  background-image: url(../img/hero3new.jpg);
+  background-image: url(../img/hero4new.jpg);
+  background-image: url(../img/hero5new.jpg);
   background-size: cover;
   background-position: center;
   -webkit-animation: bg 15s ease-in-out infinite;
@@ -82,73 +77,73 @@ body {
 
 @-webkit-keyframes bg {
   0% {
-    background-image: url(../img/hero1.jpg);
+    background-image: url(../img/hero1new.jpg);
   }
   10% {
-    background-image: url(../img/hero2.jpg);
+    background-image: url(../img/hero2new.jpg);
   }
   20% {
-    background-image: url(../img/hero3.jpg);
+    background-image: url(../img/hero3new.jpg);
   }
   30% {
-    background-image: url(../img/hero4.jpg);
+    background-image: url(../img/hero4new.jpg);
   }
   40% {
-    background-image: url(../img/hero5.jpg);
+    background-image: url(../img/hero5new.jpg);
   }
   50% {
-    background-image: url(../img/hero6.jpg);
+    background-image: url(../img/hero1new.jpg);
   }
   60% {
-    background-image: url(../img/hero7.jpg);
+    background-image: url(../img/hero2new.jpg);
   }
   70% {
-    background-image: url(../img/hero8.jpg);
+    background-image: url(../img/hero3new.jpg);
   }
   80% {
-    background-image: url(../img/hero9.jpg);
+    background-image: url(../img/hero4new.jpg);
   }
   90% {
-    background-image: url(../img/hero10.jpg);
+    background-image: url(../img/hero5new.jpg);
   }
   100% {
-    background-image: url(../img/hero1.jpg);
+    background-image: url(../img/hero1new.jpg);
   }
 }
 
 @keyframes bg {
   0% {
-    background-image: url(../img/hero1.jpg);
+    background-image: url(../img/hero1new.jpg);
   }
   10% {
-    background-image: url(../img/hero2.jpg);
+    background-image: url(../img/hero2new.jpg);
   }
   20% {
-    background-image: url(../img/hero3.jpg);
+    background-image: url(../img/hero3new.jpg);
   }
   30% {
-    background-image: url(../img/hero4.jpg);
+    background-image: url(../img/hero4new.jpg);
   }
   40% {
-    background-image: url(../img/hero5.jpg);
+    background-image: url(../img/hero5new.jpg);
   }
   50% {
-    background-image: url(../img/hero6.jpg);
+    background-image: url(../img/hero1new.jpg);
   }
   60% {
-    background-image: url(../img/hero7.jpg);
+    background-image: url(../img/hero2new.jpg);
   }
   70% {
-    background-image: url(../img/hero8.jpg);
+    background-image: url(../img/hero3new.jpg);
   }
   80% {
-    background-image: url(../img/hero9.jpg);
+    background-image: url(../img/hero4new.jpg);
   }
   90% {
-    background-image: url(../img/hero10.jpg);
+    background-image: url(../img/hero5new.jpg);
   }
   100% {
-    background-image: url(../img/hero1.jpg);
+    background-image: url(../img/hero1new.jpg);
   }
 }
 
