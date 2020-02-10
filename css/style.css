@@ -33,7 +33,6 @@ body {
 }
 
 .header {
-  position: relative;
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -42,17 +41,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 3rem 3rem 10rem 3rem;
+  padding: 3rem;
 }
 
 .header__content {
+  position: relative;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -64,10 +64,92 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  background-image: url(../img/hero1.jpg);
+  background-image: url(../img/hero2.jpg);
+  background-image: url(../img/hero3.jpg);
+  background-image: url(../img/hero4.jpg);
+  background-image: url(../img/hero5.jpg);
+  background-image: url(../img/hero6.jpg);
+  background-image: url(../img/hero7.jpg);
+  background-image: url(../img/hero8.jpg);
+  background-image: url(../img/hero9.jpg);
+  background-image: url(../img/hero10.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-animation: bg 15s ease-in-out infinite;
+          animation: bg 15s ease-in-out infinite;
+}
+
+@-webkit-keyframes bg {
+  0% {
+    background-image: url(../img/hero1.jpg);
+  }
+  10% {
+    background-image: url(../img/hero2.jpg);
+  }
+  20% {
+    background-image: url(../img/hero3.jpg);
+  }
+  30% {
+    background-image: url(../img/hero4.jpg);
+  }
+  40% {
+    background-image: url(../img/hero5.jpg);
+  }
+  50% {
+    background-image: url(../img/hero6.jpg);
+  }
+  60% {
+    background-image: url(../img/hero7.jpg);
+  }
+  70% {
+    background-image: url(../img/hero8.jpg);
+  }
+  80% {
+    background-image: url(../img/hero9.jpg);
+  }
+  90% {
+    background-image: url(../img/hero10.jpg);
+  }
+  100% {
+    background-image: url(../img/hero1.jpg);
+  }
+}
+
+@keyframes bg {
+  0% {
+    background-image: url(../img/hero1.jpg);
+  }
+  10% {
+    background-image: url(../img/hero2.jpg);
+  }
+  20% {
+    background-image: url(../img/hero3.jpg);
+  }
+  30% {
+    background-image: url(../img/hero4.jpg);
+  }
+  40% {
+    background-image: url(../img/hero5.jpg);
+  }
+  50% {
+    background-image: url(../img/hero6.jpg);
+  }
+  60% {
+    background-image: url(../img/hero7.jpg);
+  }
+  70% {
+    background-image: url(../img/hero8.jpg);
+  }
+  80% {
+    background-image: url(../img/hero9.jpg);
+  }
+  90% {
+    background-image: url(../img/hero10.jpg);
+  }
+  100% {
+    background-image: url(../img/hero1.jpg);
+  }
 }
 
 .header__figure {
@@ -79,25 +161,39 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   justify-self: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000b4), to(#000000b4));
+  background-image: linear-gradient(to right, #000000b4, #000000b4);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
 
 .header__img {
-  width: 20%;
-  fill: yellow;
+  width: 100%;
 }
 
-.header__headline {
-  margin-top: 2rem;
-  margin-bottom: 6rem;
-  text-align: center;
-}
-
-.header__headline h1 {
-  font-size: 2rem;
+.header h1 {
+  font-size: 10rem;
+  color: #f6f6f6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: rotate(90deg) translatex(-30%);
+          transform: rotate(90deg) translatex(-30%);
 }
 
 .header h3 {
-  font-size: 1.5rem;
+  font-size: 3em;
+  color: #f6f6f6;
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: rotate(-90deg) translate(10%, 430%);
+          transform: rotate(-90deg) translate(10%, 430%);
 }
 
 .header .swipe-arrow {
