@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap&subset=cyrillic');
+//////////////////////////////////////FONTS//////////////////////////////////////
+@font-face {
+    font-family: CavBold;
+    src: url('../fonts/Caveat-Bold.eot');
+    src: local('Caveat Bold'), local('Caveat-Bold'),
+        url('../fonts/Caveat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Caveat-Bold.woff') format('woff'),
+        url('../fonts/Caveat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: CavReg;
+    src: url('../fonts/Caveat-Regular.eot');
+    src: local('Caveat Regular'), local('Caveat-Regular'),
+        url('../fonts/Caveat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Caveat-Regular.woff') format('woff'),
+        url('../fonts/Caveat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//////////////////////////////////////CODE//////////////////////////////////////
 
 *, *::before, *::after {
     margin: 0;
