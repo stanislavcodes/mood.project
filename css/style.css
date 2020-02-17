@@ -1,14 +1,14 @@
 @font-face {
-  font-family: CavBold;
+  font-family: 'CavBold';
   src: url("../fonts/Caveat-Bold.eot");
-  src: local("Caveat Bold"), local("Caveat-Bold"), url("../fonts/Caveat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Caveat-Bold.woff") format("woff"), url("../fonts/Caveat-Bold.ttf") format("truetype");
+  src: url("../fonts/Caveat-Bold.eot") format("embedded-opentype"), url("../fonts/Caveat-Bold.woff") format("woff"), url("../fonts/Caveat-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
-  font-family: CavReg;
+  font-family: 'CavReg';
   src: url("../fonts/Caveat-Regular.eot");
-  src: local("Caveat Regular"), local("Caveat-Regular"), url("../fonts/Caveat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Caveat-Regular.woff") format("woff"), url("../fonts/Caveat-Regular.ttf") format("truetype");
+  src: url("../fonts/Caveat-Regular.eot") format("embedded-opentype"), url("../fonts/Caveat-Regular.woff") format("woff"), url("../fonts/Caveat-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -23,7 +23,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: 'Caveat', cursive; }
+  font-family: 'CavReg', cursive; }
 
 .container {
   display: flex;
@@ -145,7 +145,7 @@ body {
 .headline {
   align-self: stretch;
   font-size: 2.2rem;
-  font-family: 'Caveat', cursive;
+  font-family: 'CavReg', cursive;
   text-align: center;
   margin-top: 2rem; }
 
