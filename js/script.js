@@ -3,8 +3,7 @@ function loopFn() {
     for (i = 0; i < 49; i++) {
         sections[i] = document.querySelector('.section-' + i).className;
          
-    }
-    console.log(sections);  
+    } 
     return sections;
 }
 
