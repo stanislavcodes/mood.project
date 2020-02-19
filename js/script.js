@@ -1,6 +1,5 @@
-
 var sections = [];
-function loopFunction() {
+function loopFn() {
     for (i = 0; i < 49; i++) {
         sections[i] = document.querySelector('.section-' + i).className;
          
@@ -9,16 +8,12 @@ function loopFunction() {
     return sections;
 }
 
-function shuffle(array) {
+function shuffleFn(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
-
-//loopFunction();
-//shuffle(sections);
-
 
 function addNewClasses(array) {
     for(i = 0; i < array.length; i++) {
@@ -29,8 +24,7 @@ function addNewClasses(array) {
 }
 
 document.querySelector('.header').addEventListener('click', function() {
-    loopFunction();
-    shuffle(sections);
+    loopFn();
+    shuffleFn(sections);
     addNewClasses(sections);
 })
-
